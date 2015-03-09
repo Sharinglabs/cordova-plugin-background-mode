@@ -34,7 +34,7 @@
     </js-module>
 
 <!--
-    !-- ios --
+    ios
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="BackgroundMode">
@@ -42,7 +42,7 @@
             </feature>
         </config-file>
 
-        !-- The app is able to run in background through audio mode --
+        The app is able to run in background through audio mode
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
                 <string>audio</string>
@@ -90,7 +90,7 @@
     </platform>
 
 <!--
-    !-- wp8 --
+    wp8
     <platform name="wp8">
         <config-file target="config.xml" parent="/*">
             <feature name="BackgroundMode">
@@ -98,7 +98,7 @@
             </feature>
         </config-file>
 
-        !-- The app is able to run in background through location-tracking mode --
+        The app is able to run in background through location-tracking mode
         <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Tasks/DefaultTask">
             <BackgroundExecution>
                 <ExecutionType Name="LocationTracking" />
